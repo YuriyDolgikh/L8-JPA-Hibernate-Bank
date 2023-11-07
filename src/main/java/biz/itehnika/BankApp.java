@@ -4,7 +4,6 @@ import javax.persistence.*;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class BankApp {
 
     static EntityManagerFactory emf;
@@ -210,7 +209,5 @@ public class BankApp {
         if (ratesUSD != null){
             System.out.println(ratesUSD);
         }
-
     }
-
 }

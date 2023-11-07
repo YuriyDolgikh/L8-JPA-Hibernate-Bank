@@ -43,16 +43,6 @@ public class Client {
         }
     }
 
-//    public void delAccountById(Long accountId){
-//        if (accounts != null && accounts.size() != 0){
-//            for (Account acc : accounts){
-//                if (acc.getId() == accountId){
-//                    accounts.remove(acc);
-//                }
-//            }
-//        }
-//    }
-
     public Long getId() {
         return id;
     }
